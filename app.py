@@ -122,7 +122,21 @@ if generate:
         # -----------------------------
         st.subheader("📊 Career Analysis")
 
-        st.metric("Career Score", f"{score}%")
+        col1, col2 = st.columns(2)
+
+        with col1:
+            st.metric("Career Score", f"{score}%")
+
+        with col2:
+            st.metric("Matched Skills", len(matched))
+
+        col3, col4 = st.columns(2)
+
+        with col3:
+            st.metric("Missing Skills", len(missing))
+
+        with col4:
+            st.metric("Timeline", learning_time)    
 
         st.progress(score / 100)
 
