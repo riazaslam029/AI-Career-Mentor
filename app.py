@@ -12,6 +12,40 @@ st.set_page_config(
 )
 
 # -----------------------------
+# Sidebar
+# -----------------------------
+with st.sidebar:
+
+    st.title("🧠 AI Career Mentor")
+
+    st.markdown("### 📌 Version")
+    st.info("Version 1.0")
+
+    st.markdown("### 👨‍💻 Developer")
+    st.write("**Riaz Aslam**")
+
+    st.markdown("Software Engineering Student")
+
+    st.divider()
+
+    st.markdown("### 💻 Tech Stack")
+
+    st.write("🐍 Python")
+    st.write("⚡ Streamlit")
+
+    st.divider()
+
+    st.markdown("### ⭐ GitHub")
+
+    st.markdown(
+        "[Repository](https://github.com/riazaslam029/AI-Career-Mentor)"
+    )
+
+    st.divider()
+
+    st.success("🚀 Learning by Building")
+
+# -----------------------------
 # Title
 # -----------------------------
 st.title("🧠 AI Career Mentor")
