@@ -18,6 +18,12 @@ with st.sidebar:
 
     st.title("🧠 AI Career Mentor")
 
+    st.caption(
+        "Your Personalized AI-Powered Career Roadmap Generator"
+    )
+
+    st.divider()
+
     st.markdown("### 📌 Version")
     st.info("Version 1.0")
 
