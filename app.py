@@ -205,3 +205,8 @@ if generate:
         st.subheader("⏳ Estimated Learning Time")
 
         st.success(learning_time)
+        st.divider()
+
+        st.caption(
+            "Made by Riaz Aslam | AI Career Mentor v1.0"
+        )
